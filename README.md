@@ -9,7 +9,7 @@ platform that allows you to 1) create a playground from the code of any LLM app 
 ### 0. Prerequisites
 -  Install the agenta CLI
 ```bash
-pip install agenta
+pip install -U agenta
 ```
 - Either create an account in [agenta cloud](https://cloud.agenta.ai/) or 
 [self-host agenta](/self-host/host-locally)

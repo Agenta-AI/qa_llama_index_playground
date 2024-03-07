@@ -12,10 +12,10 @@ from llama_index.llms import OpenAI
 from llama_index.text_splitter import TokenTextSplitter
 
 ag.init()
-ag.config.default(
+ag.config.register_default(
     chunk_size=ag.IntParam(1024, 256, 4096),
     chunk_overlap=ag.IntParam(20, 0, 100),
-    temperature=ag.IntParam(0.9, 0.0, 1.0),
+    temperature=ag.FloatParam(0.9, 0.0, 1.0),
     model=ag.MultipleChoiceParam(
         "gpt-3.5-turbo", ["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo"]),
     response_mode=ag.MultipleChoiceParam(
