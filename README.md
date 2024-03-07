@@ -17,7 +17,7 @@ pip install agenta
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Agenta-AI/job_extractor_template
+git clone https://github.com/Agenta-AI/qa_llama_index_playground.git
 ```
 
 ### 2. Initialize the project
