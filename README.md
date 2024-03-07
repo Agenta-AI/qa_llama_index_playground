@@ -23,6 +23,7 @@ git clone https://github.com/Agenta-AI/qa_llama_index_playground.git
 ### 2. Initialize the project
 
 ```bash
+cd qa_llama_index_playground
 agenta init
 ```
 
